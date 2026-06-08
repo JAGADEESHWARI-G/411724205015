@@ -8,10 +8,18 @@ body{
     font-size:xx-large;
     font-weight:bolder;
 }*/
-/*img{
-    height:200px;
-    weight:200px;
-}*/
+img{
+     height:500px;
+     weight:500px;
+}
+@media(min-width:1024px){
+    img{
+        
+    height:auto;
+    weight:100%;
+    }
+    /*code*/
+}
 video{
     height:200px;
     weight:200px;
@@ -41,8 +49,15 @@ button{
 }
 nav{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     gap:50px;
+}
+@media(min-width:1024px){
+    nav{
+        display:flex;
+        flex-direction:row;
+        gap:100px;
+    }
 }
 #p1{
     font-style:normal;
@@ -83,7 +98,7 @@ nav{
 #six{
     grid-row:2/3;
 }*/
-.festivals{
+/*.festivals{
     display:grid;
-    grid-template-columns:50% 50% ;
-}
+    grid-template-rows:50% 50% ;
+}*/
